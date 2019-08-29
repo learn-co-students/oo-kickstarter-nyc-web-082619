@@ -42,7 +42,7 @@ describe 'Project - #add_backer' do
 
     # Same here. We are actually passing around a Backer object. This is pretty
     # simple functionality, but objects can interact with one another in really
-    # cool ways.
+    # cool wa
     book.add_backer(steven)
 
     expect(book.backers).to include(steven)
